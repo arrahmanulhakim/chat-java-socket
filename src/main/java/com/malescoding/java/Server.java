@@ -223,7 +223,7 @@ public class Server {
         public void addClient(ClientThread client) {
             clients.add(client);
         }
-
+//test
         public void removeClient(ClientThread client) {
             clients.remove(client);
         }
