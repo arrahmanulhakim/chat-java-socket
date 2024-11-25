@@ -1,7 +1,7 @@
 package com.malescoding.java;
 
-import java.io.*;
 
+import java.io.*;
 /**
  * This class defines the different types of messages that will be exchanged between the
  * Clients and the Server. It now includes additional types for forum operations.
