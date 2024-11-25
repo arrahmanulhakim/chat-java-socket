@@ -138,7 +138,7 @@ class _ChatPageState extends State<ChatPage> {
         _handleIncomingMessage(message);
       }, onError: (error) {
         setState(() {
-          _messages.add("Connection error: $error");
+          _messages.add("Connection errors: $error");
         });
       }, onDone: () {
         setState(() {
