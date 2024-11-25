@@ -1,0 +1,1 @@
+ /Users/muhammadrizki/Documents/KERJAAN/chat-java-socket/frontend/.dart_tool/flutter_build/1317f101b2328b6e64e52460fafeaebf/native_assets.yaml: 
