@@ -1,35 +1,37 @@
 package com.malescoding.java;
 
-
 import java.io.*;
-/*
- * This class defines the different type of messages that will be exchanged between the
- * Clients and the Server.
- * When talking from a Java Client to a Java Server a lot easier to pass Java objects, no
- * need to count bytes or to wait for a line feed at the end of the frame
- */
 
+/**
+ * This class defines the different types of messages that will be exchanged between the
+ * Clients and the Server. It now includes additional types for forum operations.
+ */
 public class ChatMessage implements Serializable {
 
-    // The different types of message sent by the Client
-    // WHOISIN to receive the list of the users connected
-    // MESSAGE an ordinary text message
-    // LOGOUT to disconnect from the Server
-    static final int WHOISIN = 0, MESSAGE = 1, LOGOUT = 2;
+    // The different types of messages sent by the Client
+    static final int WHOISIN = 0;
+    static final int MESSAGE = 1;
+    static final int LOGOUT = 2;
+    static final int JOIN_FORUM = 3;
+    static final int ADD_FORUM = 4;
+    static final int EXIT_FORUM = 5;
+    static final int LIST_FORUMS = 6;
+
     private int type;
     private String message;
 
-    // constructor
-    ChatMessage(int type, String message) {
+    // Constructor
+    public ChatMessage(int type, String message) {
         this.type = type;
         this.message = message;
     }
 
-    int getType() {
+    // Getters
+    public int getType() {
         return type;
     }
 
-    String getMessage() {
+    public String getMessage() {
         return message;
     }
 }
