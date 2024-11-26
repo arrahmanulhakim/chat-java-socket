@@ -1,7 +1,8 @@
 # Aplikasi Chat Real-Time Flutter 💬
 
-### Kelompok: Muhammad Rizki Ramadhan NIM 09021382126122
-### Arrahmanul Hakim NIM 09021382126130
+### Kelompok: 
+### 1. Muhammad Rizki Ramadhan NIM 09021382126122
+### 2. Arrahmanul Hakim NIM 09021382126130
 
 Aplikasi chat real-time ini dibuat menggunakan **Flutter** untuk front-end untuk komunikasi antara client dan server. Pengguna dapat terhubung dengan server, bergabung dengan forum, mengirim pesan siaran atau pesan pribadi, serta menambah dan keluar dari forum.
 
